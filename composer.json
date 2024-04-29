@@ -2,6 +2,8 @@
     "name": "somar/translation",
     "description": "Translation Package",
     "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=8.0",
         "illuminate/support": ">=5.0"

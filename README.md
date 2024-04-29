@@ -8,7 +8,7 @@ This package allows you to manage models and his translations in database.
    you can install the package via composer:
 
 ```php
-composer require mosab/translation
+composer require somar/translation
 ```
 
 2. Optional: The service provider will automatically get registered. Or you may manually add the service provider in your config/app.php file:
