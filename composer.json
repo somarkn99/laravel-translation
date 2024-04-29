@@ -1,5 +1,5 @@
 {
-    "name": "mosab/translation",
+    "name": "somar/translation",
     "description": "Translation Package",
     "type": "library",
     "require": {
@@ -19,6 +19,10 @@
         {
             "name": "Mosab Jbara",
             "email": "mosabjbara@gmail.com"
+        },
+        {
+            "name": "Somar Kesen",
+            "email": "contact@somar-kesen.com"
         }
     ],
     "minimum-stability": "dev",
