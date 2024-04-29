@@ -6,8 +6,8 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use Mosab\Translation\Middleware\RequestLanguage;
-use Mosab\Translation\Models\TranslationsLanguage;
+use Somar\Translation\Middleware\RequestLanguage;
+use Somar\Translation\Models\TranslationsLanguage;
 
 class TranslationsLanguageSeeder extends Seeder
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Mosab\Translation;
+namespace Somar\Translation;
 
 use Exception;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Support\ServiceProvider;
-use Mosab\Translation\Middleware\RequestLanguage;
-use Mosab\Translation\Models\TranslationsLanguage;
+use Somar\Translation\Middleware\RequestLanguage;
+use Somar\Translation\Models\TranslationsLanguage;
 
 class TranslationServiceProvider extends ServiceProvider
 {

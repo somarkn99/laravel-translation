@@ -1,6 +1,6 @@
 <?php
 
-namespace Mosab\Translation\Database;
+namespace Somar\Translation\Database;
 
 use Illuminate\Database\Eloquent\Builder as BaseBuilder;
 

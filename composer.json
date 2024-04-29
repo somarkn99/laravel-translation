@@ -11,7 +11,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Mosab\\Translation\\": "src/"
+            "Somar\\Translation\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -31,7 +31,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Mosab\\Translation\\TranslationServiceProvider"
+                "Somar\\Translation\\TranslationServiceProvider"
             ]
         }
     }

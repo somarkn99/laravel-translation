@@ -1,6 +1,6 @@
 <?php
 
-namespace Mosab\Translation\Rules;
+namespace Somar\Translation\Rules;
 
 
 use Illuminate\Contracts\Validation\Rule;

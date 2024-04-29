@@ -1,6 +1,6 @@
 <?php
 
-use Mosab\Translation\Middleware\RequestLanguage;
+use Somar\Translation\Middleware\RequestLanguage;
 
 if (! function_exists('translation_rule')) {
     function translation_rule(array $languages=null)

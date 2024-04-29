@@ -16,26 +16,26 @@ composer require somar/translation
 ```php
 'providers' => [
     // ...
-    Mosab\Translation\TranslationServiceProvider::class,
+    Somar\Translation\TranslationServiceProvider::class,
 ];
 ```
 
 3. You should publish the migrations and seeder files:
 
 ```php
-php artisan vendor:publish --provider="Mosab\Translation\TranslationServiceProvider"
+php artisan vendor:publish --provider="Somar\Translation\TranslationServiceProvider"
 ```
 
 - if you want to publish only migrations files:
 
 ```php
-php artisan vendor:publish --provider="Mosab\Translation\TranslationServiceProvider" --tag=migrations
+php artisan vendor:publish --provider="Somar\Translation\TranslationServiceProvider" --tag=migrations
 ```
 
 - if you want to publish only seeders files:
 
 ```php
-php artisan vendor:publish --provider="Mosab\Translation\TranslationServiceProvider" --tag=seeders
+php artisan vendor:publish --provider="Somar\Translation\TranslationServiceProvider" --tag=seeders
 ```
 
 4. Run the migrations:
@@ -77,7 +77,7 @@ you can manage Languages or modify it by dealing with translations_languages tab
 ```php
 protected $middlewareGroups = [
         'api' => [
-            \Mosab\Translation\Middleware\RequestLanguage::class,
+            \Somar\Translation\Middleware\RequestLanguage::class,
             // ...
         ],
     ];
@@ -90,7 +90,7 @@ protected $middlewareGroups = [
 1. After determine the tables that you want to translate some column of them, modify the model for this table by inheriting TranslatableModel, like this:
 
 ```php
-use Mosab\Translation\Database\TranslatableModel;
+use Somar\Translation\Database\TranslatableModel;
 
 class Test extends TranslatableModel
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace Mosab\Translation\Database;
+namespace Somar\Translation\Database;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Mosab\Translation\Middleware\RequestLanguage;
-use Mosab\Translation\Database\Builder as TranslationsBuilder;
-use Mosab\Translation\Models\Translation;
+use Somar\Translation\Middleware\RequestLanguage;
+use Somar\Translation\Database\Builder as TranslationsBuilder;
+use Somar\Translation\Models\Translation;
 
 /**
  * An abstract class that extends Laravel's Eloquent Model to support translation capabilities.

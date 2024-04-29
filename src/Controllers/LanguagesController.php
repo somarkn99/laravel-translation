@@ -1,12 +1,12 @@
 <?php
 
-namespace Mosab\Translation\Controllers;
+namespace Somar\Translation\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Mosab\Translation\Models\TranslationsLanguage;
+use Somar\Translation\Models\TranslationsLanguage;
 use Illuminate\Support\Facades\File;
-use Mosab\Translation\Models\Translation;
+use Somar\Translation\Models\Translation;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Cache;
 

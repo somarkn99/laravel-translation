@@ -1,6 +1,6 @@
 <?php
 
-namespace Mosab\Translation\Middleware;
+namespace Somar\Translation\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
